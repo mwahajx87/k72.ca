@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@font-face {
+  font-family: font1;
+  src: url(../public/fonts/Lausanne-300.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(../public/fonts/Lausanne-500.woff2);
+}
+.moveX {
+  animation: moveAnimation 10s linear infinite;
+}
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+body::selection {
+  background: #d2fd60;
+  color: black;
+}
