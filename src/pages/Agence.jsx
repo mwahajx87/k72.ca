@@ -6,27 +6,43 @@ import { useRef } from 'react'
 import { NavbarContext } from '../context/NavContext'
 import FullNavBar from '../Navbar/FullNavBar'
 
+import Carl_1 from '../assets/AgenceIamges/Carl_1.jpg'
+import Olivier_2 from '../assets/AgenceIamges/Olivier_2.jpg'
+import Lawrence_3 from '../assets/AgenceIamges/Lawrence_3.jpg'
+import HugoJoseph_4 from '../assets/AgenceIamges/HugoJoseph_4.jpg'
+import ChantalG_5 from '../assets/AgenceIamges/ChantalG_5.jpg'
+import MyleneS_6 from '../assets/AgenceIamges/MyleneS_6.jpg'
+import SophieA_7 from '../assets/AgenceIamges/SophieA_7.jpg'
+import Claire_8 from '../assets/AgenceIamges/Claire_8.jpg'
+import Michele_9 from '../assets/AgenceIamges/Michele_9.jpg'
+import Mel_10 from '../assets/AgenceIamges/MEL_10.jpg'
+import Camille_11 from '../assets/AgenceIamges/CAMILLE_11.jpg'
+import Maxime_12 from '../assets/AgenceIamges/MAXIME_12.jpg'
+import Meggie_13 from '../assets/AgenceIamges/MEGGIE_13.jpg'
+import SophieA_14 from '../assets/AgenceIamges/SophieA_14.jpg'
+import joel_15 from '../assets/AgenceIamges/joel_15.jpg'
+
 const Agence = () => {
   gsap.registerPlugin(ScrollTrigger)
   const imageDivRef = useRef(null)
   const imageRef = useRef(null)
 
   const imageArray = [
-    'src/assets/AgenceIamges/Carl_1.jpg',
-    'src/assets/AgenceIamges/Olivier_2.jpg',
-    'src/assets/AgenceIamges/Lawrence_3.jpg',
-    'src/assets/AgenceIamges/HugoJoseph_4.jpg',
-    'src/assets/AgenceIamges/ChantalG_5.jpg',
-    'src/assets/AgenceIamges/MyleneS_6.jpg',
-    'src/assets/AgenceIamges/SophieA_7.jpg',
-    'src/assets/AgenceIamges/Claire_8.jpg',
-    'src/assets/AgenceIamges/Michele_9.jpg',
-    'src/assets/AgenceIamges/MEL_10.jpg',
-    'src/assets/AgenceIamges/CAMILLE_11.jpg',
-    'src/assets/AgenceIamges/MAXIME_12.jpg',
-    'src/assets/AgenceIamges/MEGGIE_13.jpg',
-    'src/assets/AgenceIamges/SophieA_14.jpg',
-    'src/assets/AgenceIamges/joel_15.jpg',
+    {src: Carl_1},
+    {src: Olivier_2},
+    {src: Lawrence_3},
+    {src: HugoJoseph_4},
+    {src: ChantalG_5},
+    {src: MyleneS_6},
+    {src: SophieA_7},
+    {src: Claire_8},
+    {src: Michele_9},
+    {src: Mel_10},
+    {src: Camille_11},
+    {src: Maxime_12},
+    {src: Meggie_13},
+    {src: SophieA_14},
+    {src: joel_15},
   ]
 
 
@@ -51,7 +67,7 @@ const Agence = () => {
           } else {
             imageIndex = imageArray.length - 1
           }
-          imageRef.current.src = imageArray[imageIndex]
+          imageRef.current.src = imageArray[imageIndex].src
         }
       }
     })
