@@ -12,21 +12,21 @@ const Agence = () => {
   const imageRef = useRef(null)
 
   const imageArray = [
-    'public/AgenceIamges/Carl_1.jpg',
-    'public/AgenceIamges/Olivier_2.jpg',
-    'public/AgenceIamges/Lawrence_3.jpg',
-    'public/AgenceIamges/HugoJoseph_4.jpg',
-    'public/AgenceIamges/ChantalG_5.jpg',
-    'public/AgenceIamges/MyleneS_6.jpg',
-    'public/AgenceIamges/SophieA_7.jpg',
-    'public/AgenceIamges/Claire_8.jpg',
-    'public/AgenceIamges/Michele_9.jpg',
-    'public/AgenceIamges/MEL_10.jpg',
-    'public/AgenceIamges/CAMILLE_11.jpg',
-    'public/AgenceIamges/MAXIME_12.jpg',
-    'public/AgenceIamges/MEGGIE_13.jpg',
-    'public/AgenceIamges/SophieA_14.jpg',
-    'public/AgenceIamges/joel_15.jpg',
+    'src/assets/AgenceIamges/Carl_1.jpg',
+    'src/assets/AgenceIamges/Olivier_2.jpg',
+    'src/assets/AgenceIamges/Lawrence_3.jpg',
+    'src/assets/AgenceIamges/HugoJoseph_4.jpg',
+    'src/assets/AgenceIamges/ChantalG_5.jpg',
+    'src/assets/AgenceIamges/MyleneS_6.jpg',
+    'src/assets/AgenceIamges/SophieA_7.jpg',
+    'src/assets/AgenceIamges/Claire_8.jpg',
+    'src/assets/AgenceIamges/Michele_9.jpg',
+    'src/assets/AgenceIamges/MEL_10.jpg',
+    'src/assets/AgenceIamges/CAMILLE_11.jpg',
+    'src/assets/AgenceIamges/MAXIME_12.jpg',
+    'src/assets/AgenceIamges/MEGGIE_13.jpg',
+    'src/assets/AgenceIamges/SophieA_14.jpg',
+    'src/assets/AgenceIamges/joel_15.jpg',
   ]
 
 

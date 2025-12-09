@@ -24,36 +24,36 @@ const Project = () => {
 
   const projects = [
     {
-      image1: 'public/ProjetsImages/01.jpg',
-      image2: 'public/ProjetsImages/02.jpg'
+      image1: 'src/assets/ProjetsImages/01.jpg',
+      image2: 'src/assets/ProjetsImages/02.jpg'
     },
     {
-      image1: 'public/ProjetsImages/03.jpg',
-      image2: 'public/ProjetsImages/04.jpg'
+      image1: 'src/assets/ProjetsImages/03.jpg',
+      image2: 'src/assets/ProjetsImages/04.jpg'
     },
     {
-      image1: 'public/ProjetsImages/05.jpg',
-      image2: 'public/ProjetsImages/06.jpg'
+      image1: 'src/assets/ProjetsImages/05.jpg',
+      image2: 'src/assets/ProjetsImages/06.jpg'
     },
     {
-      image1: 'public/ProjetsImages/07.jpg',
-      image2: 'public/ProjetsImages/08.jpg'
+      image1: 'src/assets/ProjetsImages/07.jpg',
+      image2: 'src/assets/ProjetsImages/08.jpg'
     },
     {
-      image1: 'public/ProjetsImages/09.jpg',
-      image2: 'public/ProjetsImages/10.jpg'
+      image1: 'src/assets/ProjetsImages/09.jpg',
+      image2: 'src/assets/ProjetsImages/10.jpg'
     },
     {
-      image1: 'public/ProjetsImages/11.jpg',
-      image2: 'public/ProjetsImages/12.jpg'
+      image1: 'src/assets/ProjetsImages/11.jpg',
+      image2: 'src/assets/ProjetsImages/12.jpg'
     },
     {
-      image1: 'public/ProjetsImages/13.jpg',
-      image2: 'public/ProjetsImages/14.jpg'
+      image1: 'src/assets/ProjetsImages/13.jpg',
+      image2: 'src/assets/ProjetsImages/14.jpg'
     },
     {
-      image1: 'public/ProjetsImages/15.jpg',
-      image2: 'public/ProjetsImages/16.jpg'
+      image1: 'src/assets/ProjetsImages/15.jpg',
+      image2: 'src/assets/ProjetsImages/16.jpg'
     },
   ]
   gsap.registerPlugin(ScrollTrigger)
