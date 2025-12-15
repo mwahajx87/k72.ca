@@ -6,22 +6,22 @@ import FullNavBar from "../Navbar/FullNavBar";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import no1 from "../assets/ProjetsImages/01.jpg";
-import no2 from "../assets/ProjetsImages/02.jpg";
-import no3 from "../assets/ProjetsImages/03.jpg";
-import no4 from "../assets/ProjetsImages/04.jpg";
-import no5 from "../assets/ProjetsImages/05.jpg";
-import no6 from "../assets/ProjetsImages/06.jpg";
-import no7 from "../assets/ProjetsImages/07.jpg";
-import no8 from "../assets/ProjetsImages/08.jpg";
-import no9 from "../assets/ProjetsImages/09.jpg";
-import no10 from "../assets/ProjetsImages/10.jpg";
-import no11 from "../assets/ProjetsImages/11.jpg";
-import no12 from "../assets/ProjetsImages/12.jpg";
-import no13 from "../assets/ProjetsImages/13.jpg";
-import no14 from "../assets/ProjetsImages/14.jpg";
-import no15 from "../assets/ProjetsImages/15.jpg";
-import no16 from "../assets/ProjetsImages/16.jpg";
+import no1 from "./../assets/ProjetsImages/01.jpg";
+import no2 from "./../assets/ProjetsImages/02.jpg";
+import no3 from "./../assets/ProjetsImages/03.jpg";
+import no4 from "./../assets/ProjetsImages/04.jpg";
+import no5 from "./../assets/ProjetsImages/05.jpg";
+import no6 from "./../assets/ProjetsImages/06.jpg";
+import no7 from "./../assets/ProjetsImages/07.jpg";
+import no8 from "./../assets/ProjetsImages/08.jpg";
+import no9 from "./../assets/ProjetsImages/09.jpg";
+import no10 from "./../assets/ProjetsImages/10.jpg";
+import no11 from "./../assets/ProjetsImages/11.jpg";
+import no12 from "./../assets/ProjetsImages/12.jpg";
+import no13 from "./../assets/ProjetsImages/13.jpg";
+import no14 from "./../assets/ProjetsImages/14.jpg";
+import no15 from "./../assets/ProjetsImages/15.jpg";
+import no16 from "./../assets/ProjetsImages/16.jpg";
 
 const Project = () => {
   const { navbarOpen, setNavbarOpen } = useContext(NavbarContext);
